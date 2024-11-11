@@ -1,0 +1,51 @@
+.jobContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+.jobCard {
+  position: relative;
+  height: 200px;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.jobCard.logo {
+  border: 2px solid red;
+  position: absolute; /* Absolute positioning */
+  top: -25px; /* Adjust this value as needed to control how much it overlaps */
+  left: 16px; /* Adjust for horizontal positioning */
+  width: 50px;
+  height: 50px;
+}
+.time {
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-left: 30px;
+  padding-top: 20px;
+}
+
+p {
+  font-size: 16px;
+  padding: 30px;
+  margin-left: 20px;
+}
+.btnMore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
