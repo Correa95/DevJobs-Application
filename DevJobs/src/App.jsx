@@ -17,7 +17,7 @@ function App() {
         <Route path="/" element={<Jobs />} />
         <Route path="/job/:id" element={<Job />} />
         <Route path="/registerForm" element={<RegisterForm />} />
-        <Route path="/signInFrom" element={<SignInForm />} />
+        <Route path="/signInForm" element={<SignInForm />} />
         <Route path="/applicationForm" element={<ApplicationForm />} />
       </Routes>
     </>

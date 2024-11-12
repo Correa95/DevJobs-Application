@@ -4,9 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 function Jobs() {
   const navigate = useNavigate();
-  // const handleJobClick = (jobId) => {
-  //   navigate(`/job/${jobId}`);
-  // };
+
   const handleCardClick = (id) => {
     navigate(`/job/${id}`);
   };
@@ -17,7 +15,6 @@ function Jobs() {
           <div
             className="jobCard"
             key={index}
-            // onClick={handleJobClick(job.id)}
             onClick={() => handleCardClick(job.id)}
           >
             <img src={job.logo} alt={`${job.company} logo`} />

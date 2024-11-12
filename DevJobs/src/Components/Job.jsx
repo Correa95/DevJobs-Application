@@ -3,7 +3,6 @@ import data from "/data/data.json";
 import "./Job.css";
 function Job() {
   const navigate = useNavigate();
-  // const { jobId } = useParams();
   const { id } = useParams();
   const job = data.find((_, index) => index === parseInt(id, 10));
 
@@ -17,7 +16,7 @@ function Job() {
           <img src={job.logo} alt={`${job.company} logo`} className="img" />
           <div className="company">
             <h1>{job.company}</h1>
-            <small>{job.company.com}</small>
+            <small>{`${job.company}.com`}</small>
           </div>
           <button className="website">
             <a href={job.website}>Company Website</a>
