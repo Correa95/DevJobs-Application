@@ -95,7 +95,11 @@ function Jobs() {
             key={index}
             onClick={() => handleCardClick(job.id)}
           >
-            <img src={job.logo} alt={`${job.company} logo`} />
+            <img
+              src={job.logo}
+              alt={`${job.company} logo`}
+              className="companyLogo"
+            />
             <div className="time">
               <h3>{job.postedAt}</h3>
               <h3>{job.contract}</h3>

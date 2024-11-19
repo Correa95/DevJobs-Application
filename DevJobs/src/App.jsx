@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import NavBar from "./Components/NavBar";
 import Jobs from "./Components/Jobs";
 import Job from "./Components/Job";
-import RegisterForm from "./Components/Register";
+import Register from "./Components/Register";
 import SignInForm from "./Components/SignInForm";
 import ApplicationForm from "./Components/ApplicationForm";
 // import Form from "./Components/Form";
@@ -16,7 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Jobs />} />
         <Route path="/job/:id" element={<Job />} />
-        <Route path="/registerForm" element={<RegisterForm />} />
+        <Route path="/register" element={<Register />} />
         <Route path="/signInForm" element={<SignInForm />} />
         <Route path="/applicationForm" element={<ApplicationForm />} />
       </Routes>
