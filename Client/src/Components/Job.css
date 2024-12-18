@@ -1,0 +1,156 @@
+.jobDetailContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.jobDetail {
+  color: #212121;
+  width: 100%;
+  max-width: 800px;
+  margin-top: 30px;
+  border-radius: 8px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.img {
+  width: 100px;
+  height: auto;
+}
+
+.top {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.company {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+small {
+  color: #333;
+  font-size: 14px;
+}
+
+.website {
+  font-size: 16px;
+  width: 100%;
+  max-width: 200px;
+  height: 50px;
+  margin: 10px 0;
+  border: 2px solid #ddd;
+  border-radius: 15px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.timeDetail {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.apply {
+  background-color: #a34be7;
+  margin: 20px 0;
+  color: #fff;
+  border: 2px solid #ddd;
+  font-size: 16px;
+  width: 100%;
+  max-width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+h3 {
+  margin: 10px;
+  font-size: 14px;
+}
+
+.description {
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.position {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.title {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.location {
+  color: #a34be7;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.requirement,
+.role {
+  width: 100%;
+}
+
+.content {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
+ul li,
+li {
+  margin: 10px;
+  font-size: 18px;
+}
+
+@media (min-width: 768px) {
+  .jobDetail {
+    padding: 40px;
+    width: 75%;
+  }
+
+  .img {
+    width: 150px;
+  }
+
+  .website {
+    width: 250px;
+  }
+
+  .apply {
+    float: right;
+    width: 120px;
+  }
+
+  .position {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .jobDetail {
+    width: 50%;
+  }
+}
